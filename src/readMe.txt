@@ -35,3 +35,14 @@ Tests the pressured flag.
 **Set pressure**
 Assumed threashhold pressure is 1.5
 Test that the pressurised flags gets set and unset.
+
+**********************************************
+test_state_18
+
+Tests filling state enters.
+**Set pressure**
+**Simualte reverse flow**
+Assumed threashhold pressure is 1.5
+Test that update returns 
+*correct state sequence
+************************
