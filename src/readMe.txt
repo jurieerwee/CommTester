@@ -46,3 +46,12 @@ Assumed threashhold pressure is 1.5
 Test that update returns 
 *correct state sequence
 ************************
+test_state_19
+Tests filling state stops with full tank.
+**Set pressure**
+**Simualte reverse flow**
+Assumed threashhold pressure is 1.5
+Test that update returns 
+*correct state sequence
+
+Requires test_state_18
