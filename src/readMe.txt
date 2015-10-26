@@ -75,3 +75,18 @@ Test that update returns
 *correct state sequence
 
 Requires test_state_18
+*********************************
+test_state_23
+Tests OVERRIDE state enters from IDLE
+
+Assumed threashhold pressure is 1.5
+Test that update returns 
+*correct state sequence
+******************************
+test_state_24
+Tests OVERRIDE state enters from IDLE_PRES
+
+Assumed threashhold pressure is 1.5
+Test that update returns 
+*correct state sequence
+'''
