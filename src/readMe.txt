@@ -55,3 +55,23 @@ Test that update returns
 *correct state sequence
 
 Requires test_state_18
+*****************************
+test_state_20
+Tests filling state stops with IDLECMD.
+**Set pressure**
+**Simualte reverse flow**
+Assumed threashhold pressure is 1.5
+Test that update returns 
+*correct state sequence
+
+Requires test_state_18
+*******************************
+test_state_21
+Tests filling state ERROR on forward flow
+**Set pressure**
+**Simualte forward flow**
+Assumed threashhold pressure is 1.5
+Test that update returns 
+*correct state sequence
+
+Requires test_state_18
