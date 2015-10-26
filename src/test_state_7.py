@@ -155,6 +155,8 @@ with open("/home/jurie/cpp_projects/tests/outputs/state_test2.out","wb") as outp
 			break
 	
 	flowSim.terminate = True
+	print ('waiting for flow to stop')
+	t_flowSim.join()
 	
 	myComms.terminate = True
 	

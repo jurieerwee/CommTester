@@ -38,7 +38,7 @@ class TesterComms(object):
 	
 	
 	def __init__(self):
-		TCP_IP = '10.42.0.10'
+		TCP_IP = '127.0.0.1'
 		TCP_PORT = 5000
 		self.BUFFER_SIZE = 1024
 		self.s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)

@@ -157,6 +157,7 @@ with open("/home/jurie/cpp_projects/tests/outputs/state_test2.out","wb") as outp
 			break
 	
 	flowSim.terminate = True
+	t_flowSim.join()
 	
 	myComms.terminate = True
 	
