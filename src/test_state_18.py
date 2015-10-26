@@ -29,7 +29,7 @@ except IndexError as e:
 	debug = False
 
 successfull = False
-print ('State test5:')
+print (sys.argv[0])
 
 with open("/home/jurie/cpp_projects/tests/outputs/state_test2.out","wb") as outputFile:
 	p = subprocess.Popen(['sudo', '/home/jurie/cpp_projects/RigController/my_testRig','5000' ],cwd='/home/jurie/cpp_projects/RigController',stdout=outputFile)
