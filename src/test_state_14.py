@@ -42,6 +42,9 @@ with open("/home/jurie/cpp_projects/tests/outputs/state_test2.out","wb") as outp
 	time.sleep(1)
 	while True:
 		try:
+			#simulate tankTrans
+			subprocess.Popen(['gpio', 'mode','1', 'up' ],cwd='/home/jurie/cpp_projects/RigController')
+			subprocess.Popen(['gpio', 'mode','0', 'up' ],cwd='/home/jurie/cpp_projects/RigController')
 			myComms = TesterComms()
 			ids = 0
 			obj = {"msg":{"id":ids,"type":"testerCMD","instr":"setPressureCMD","pressure":2.0}}
@@ -121,7 +124,8 @@ with open("/home/jurie/cpp_projects/tests/outputs/state_test2.out","wb") as outp
 				successfull = False
 				break
 			
-			count = 310
+			
+			count = 320
 			while(myComms.status['update']['status']['state']!= 'PRIME4' and count >0):
 				time.sleep(0.1)
 				count -=1
