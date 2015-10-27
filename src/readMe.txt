@@ -105,3 +105,13 @@ Tests force_fill state enters from IDLE
 Assumed threashhold pressure is 1.5
 Test that update returns 
 *correct state sequence
+**********************************
+test_state_27
+Tests force_fill state exits on idleCMD
+**Set pressure**
+
+Assumed threashhold pressure is 1.5
+Test that update returns 
+*correct state sequence
+
+Requires 26 to pass
